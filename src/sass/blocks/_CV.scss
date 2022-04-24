@@ -1,18 +1,5 @@
 .CV {
   padding-top: 120px;
-  &__title {
-    position: relative;
-    text-align: center;
-    @include before_circle;
-    &:before {
-      top: -5px;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-  }
-  &__subtitle {
-    text-align: center;
-  }
   &__wrapper {
     padding: 60px 65px 0 65px;
     display: grid;
@@ -52,15 +39,15 @@
     }
   }
   &__item {
-	  position: relative;
-	  &::before {
-		  content: '';
-		  height: 1px;
-		  width: 45px;
-		  position: absolute;
-		  top: 74px;
-		  background-color: #000;
-	  }
+    position: relative;
+    &::before {
+      content: "";
+      height: 1px;
+      width: 45px;
+      position: absolute;
+      top: 74px;
+      background-color: #000;
+    }
     &-head {
       position: relative;
       padding: 54px 0 0 100px;
